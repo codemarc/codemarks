@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+#blk {
+  width: 800px;
+  min-height: 300px;
+  margin:4px;
+  /* border: 1px solid #000; */
+}
+.navtext, dd{
+  font-size: 9pt;
+}
+.midnav {
+  margin-left:200px;
+}
+.uk-navbar {
+  height: 5px;
+  margin-top: -24px;
+  margin-bottom: 12px;
+  margin-left: 0px;
+  font-weight: bold;
+  border: 1px solid #f2f2f2;
+  z-index: 1;
+}
+
+ #blkIconBar {
+  margin-right: 6px;
+  margin-top: 4px;
+}
+
+#blkIconBar > a {
+  background-color: -internal-light-dark(rgb(239, 239, 239), rgb(59, 59, 59));
+  background-color: #eee;
+  margin: 0em;
+  padding: 2px 6px;
+  border-radius: 4px; 
+  border: 1px solid #999;
+  border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+  width: 15px;
+  height: 15px;
+  margin-right:1px;
+}
+#blkIconBar > a:nth-child(1) {
+  background-color: #fff;
+  margin-right: 12px;
+  border:none
+}
+#bookmarks {
+  /* border-top: 1px solid red; */
+  margin-top: 3.9em;
+  font-size: 14px;
+}
+.uk-card-header {
+  padding: 4px 4px;
+  font-size: 10pt;
+  /* border-top: 1px solid red; */
+  border-top: 1px solid #e5e5e5;
+}
+.uk-card-title {
+  font-size: 12px;
+  margin: 4px 1px;
+  text-align: left;
+  text-decoration: underline;
+  font-weight: 700;
+}
+.uk-card-body {
+  padding-top: 0px;
+  padding-bottom: 4px;
+  padding-left: 1px;
+  padding-right: 0px;
+  font-size: 8pt;
+}
+.sitelinks {
+  margin-top: 4px;
+  margin-bottom: -4px;
+}
+.uk-grid {
+  margin-left: 0px;
+  margin-right: 12px;
+  margin-bottom: 12px;
+}
+.sitetitle {
+  color: red;
+}
+.sitetitle2 {
+  color: green;
+}
+.uk-dropdown {
+  background: #efe;
+  border: 1px solid black;
+  padding: 4px;
+  top: -8px;
+}
+.uk-card-header.ul-card {
+  padding: 4px;
+}
