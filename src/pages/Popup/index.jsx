@@ -1,9 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Marcs from './Marcs'
+import Header from './Header';
+import Panels from './Panels';
 
 const App = () => (
-  <Marcs></Marcs>
+  <>
+  <Header />
+  <Panels />
+  </>
 )
-
 ReactDOM.render(<App />, document.getElementById('root'));

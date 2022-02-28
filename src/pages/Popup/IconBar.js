@@ -1,15 +1,30 @@
 import React from 'react'
 import pak from '../../../package.json'
-import { Icon } from 'uikit-react'
+import Button from '@mui/material/Button'
+import IconButton from '@mui/material/IconButton'
+import Stack from '@mui/material/Stack'
+import RefreshIcon from '@mui/icons-material/Refresh'
+import MenuBookIcon from '@mui/icons-material/MenuBook'
+import InfoOutlinedIcon from '@mui/icons-material/InfoOutlined'
+import DisplaySettingsIcon from '@mui/icons-material/DisplaySettings';
 
 export default function IconBar() {
   return (
-    <span id="blkIconBar">
-      <a href="/" target="_new" >version {pak.version}</a>
-      <Icon href="/" options="refresh" />
-      <Icon href="/" options="database" />
-      <Icon href="/" options="info" />
-      <Icon href="/Settings" options="settings" />
+    <span>
+      <Stack direction="row" spacing={0}>
+        <IconButton aria-label="refresh">
+          <RefreshIcon />
+        </IconButton>
+        <IconButton aria-label="doc">
+          <MenuBookIcon />
+        </IconButton>
+        <IconButton aria-label="info">
+          <InfoOutlinedIcon />
+        </IconButton>
+        <IconButton aria-label="settings">
+          <DisplaySettingsIcon />
+        </IconButton>
+      </Stack>
     </span>
   )
 }

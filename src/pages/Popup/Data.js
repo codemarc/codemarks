@@ -1,6 +1,7 @@
+// http://localhost:1234/src/static/popup.html
 const config = [
   {
-    section: 'GitHub',
+    section: 'Source',
     href: 'https://github.com',
     links: [
       {
@@ -26,8 +27,12 @@ const config = [
         href: 'https://github.com/orgs/CodemarcConsulting/packages?ecosystem=container',
       },
       {
-        name: 'Deployment Yaml',
-        href: 'https://github.com/CodemarcConsulting/deployments/tree/master/estates',
+        name: 'Notes to my future self',
+        href: 'https://github.com/codemarc/ntmfs'
+      },
+      {
+        name: "",
+        href: ""
       }
     ]
   },
@@ -49,14 +54,12 @@ const config = [
         href4: 'https://zoom.us/signin'
       },
       {
+        name: 'gsq.io',
+        href: 'ht1tps://goldensquirrel.io/'
+      },
+      {
         name: 'toojays',
-        href: 'https://toojays.com',
-        label2: ' | ',
-        name2: 'info',
-        href2: 'https://toojays.info/infonet/',
-        label3: ' | ',
-        name3: 'packslips',
-        href3: 'http://23.31.19.151/',
+        href: 'https://chrome.google.com/webstore/detail/toojays-info/gcdnlnojkjemigholljneglingmijipp'
       },
       {
         name: '',
@@ -74,17 +77,15 @@ const config = [
   },
   {
     section: 'Data',
-    href: 'https://github.com/codemarc/ntmfs',
+    title: 'Data Mesh Learning...',
+    href: 'https://datameshlearning.com/',
     links: [
       {
-        name: 'toojays',
-        href: 'https://toojays.com',
+        name: 'Starburst Galaxy (cm)',
+        href: 'https://codemarc.galaxy.starburst.io/',
         label2: ' | ',
-        name2: 'info',
-        href2: 'https://toojays.info/infonet/',
-        label3: ' | ',
-        name3: 'packslips',
-        href3: 'http://23.31.19.151/',
+        name2: 'doc',
+        href2: 'https://docs.starburst.io/'
       },
       {
         name: '',
@@ -101,26 +102,40 @@ const config = [
       {
         name: '',
         href: ''
-      }
+      },
+      {
+        name: '',
+        href: ''
+      },
     ]
   },
   {
     section: 'Developer',
     links: [
       {
+        name: 'chrome webstore dev dash',
+        href: 'https://chrome.google.com/webstore/developer/dashboard'
+      },
+      {
         name: 'LinkedIn Learning',
         href: 'https://www.linkedin.com/learning/?trk=nav_neptune_learning'
       },
       {
         name: 'React',
-        href: 'https://github.com/enaqx/awesome-react'
+        href: 'https://github.com/enaqx/awesome-react',
+        label2: ' | ',
+        name2: 'MUI',
+        href2: 'https://mui.com/',
+        label3: ' | ',
+        name3: 'uikit',
+        href3: 'https://getuikit.com/docs/introduction',
+        label4: ' | ',
+        name4: 'react',
+        href4: 'https://vacarsu.github.io/uikit-react/'
       },
       {
-        name: 'uikit',
-        href: 'https://getuikit.com/docs/introduction',
-        label2: ' | ',
-        name2: 'react',
-        href2: 'https://vacarsu.github.io/uikit-react/',
+        name: '',
+        href: ''
       },
       {
         name: '',
