@@ -12,25 +12,5 @@
   "browser_action": {
     "default_icon": "assets/icon128.png",
     "default_popup": "src/static/popup.html"
-  },
-  "content_scripts": [
-    {
-      "matches": [
-        "https://*/*"
-      ],
-      "js": [
-        "src/scripts/content.js"
-      ]
-    }
-  ],
-  "background": {
-    "scripts": [
-      "src/scripts/background.js"
-    ],
-    "persistent": false
-  },
-  "options_ui": {
-    "page": "src/static/options.html",
-    "open_in_tab": true
   }
 }

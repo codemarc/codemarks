@@ -88,8 +88,8 @@ const config = [
         href2: 'https://docs.starburst.io/'
       },
       {
-        name: '',
-        href: ''
+        name: 'what is dataMesh? confluent',
+        href: 'https://developer.confluent.io/learn-kafka/data-mesh/intro/'
       },
       {
         name: '',
