@@ -1,5 +1,4 @@
 import * as React from 'react'
-import ReactDOM from 'react-dom'
 import { experimentalStyled as styled } from '@mui/material/styles'
 import Box from '@mui/material/Box'
 import Paper from '@mui/material/Paper'
@@ -8,21 +7,18 @@ import Card from '@mui/material/Card'
 import CardHeader from '@mui/material/CardHeader'
 import CardContent from '@mui/material/CardContent'
 import Typography from '@mui/material/Typography'
+import Link from '@mui/material/Link';
 
 import { default as data } from './Data'
 
-const getTitle = (item) => (item.hasOwnProperty('href')) ? <a title={item.title} href={item.href}>{item.section}</a> : item.section
+const getTitle = (item) => (item.hasOwnProperty('href')) ? <Link title={item.title} href={item.href} underline="hover" target="_new">{item.section}</Link> : item.section
 
-const getItemLink = (o, ndx) => {
-  // console.dir(o)
-  const isMT = o.name === ''
-  const isHT = (o.name === '-' || o.label === '-') ? <hr /> : o.label
-
-  return (
+const getItemLink = (o, ndx) => (
     <dd key={ndx}>
       {
-        isMT ? (<br />) : (
+      o.name === '' ? (<br />) : (
           <span>
+          {o.label === '-' ? (<hr />) : o.label}
             <a href={o.href} title={o.hint} target="_new">{o.name}</a>
             {o.label2}
             <a href={o.href2} title={o.hint2} target="_new">{o.name2}</a>
@@ -34,12 +30,9 @@ const getItemLink = (o, ndx) => {
         )
       }
     </dd>
-  )
-}
-const getBody = (item, ndx) => {
-  return (<dl className="sitelinks">{item.links.map(getItemLink)}</dl>)
-}
+)
 
+const getBody = (item) => (<dl className="sitelinks">{item.links.map(getItemLink)}</dl>)
 
 const Item = styled(Paper)(({ theme }) => ({
   backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',

@@ -58,10 +58,18 @@ header.css-hip9hq-MuiPaper-root-MuiAppBar-root {
 }
 .sitelinks {
   margin-top: -6px;
-  margin-bottom: -6px;
+  margin-bottom: 0px;
 } 
 dt,dl,dd,dt a,dl a,dd a{
   margin-inline-start: auto;
   text-decoration: none;
   font-size: 9pt;
+}
+hr {
+  width: 98%;
+  border: 0;
+  height: 1px;
+  background: #000;
+  opacity: 0.2;
+  margin-top: 10px;
 }

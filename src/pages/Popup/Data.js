@@ -111,6 +111,7 @@ const config = [
   },
   {
     section: 'Developer',
+    href: 'https://github.com/codemarc/ntmfs',
     links: [
       {
         name: 'chrome webstore dev dash',
@@ -119,6 +120,10 @@ const config = [
       {
         name: 'LinkedIn Learning',
         href: 'https://www.linkedin.com/learning/?trk=nav_neptune_learning'
+      },
+      {
+        name: 'stosa.org',
+        href: 'https://stosa.org/'
       },
       {
         name: 'React',
@@ -134,16 +139,18 @@ const config = [
         href4: 'https://vacarsu.github.io/uikit-react/'
       },
       {
-        name: '',
-        href: ''
-      },
-      {
-        name: '',
-        href: ''
-      },
-      {
-        name: '',
-        href: ''
+        label: '-',
+        name: 'code',
+        href: 'https://codetogo.io/',
+        label2: ' • ',
+        name2: 'type',
+        href2: 'https://app.typeanything.io/',
+        label3: ' • ',
+        name3: 'learn',
+        href3: 'https://learn-anything.xyz/',
+        label4: ' • ',
+        name4: 'flutter',
+        href4: 'https://flutter.dev/'
       }
     ]
   },
@@ -263,8 +270,12 @@ const config = [
     href: 'https://landscape.cncf.io/',
     links: [
       {
-        name: 'Rancher k3d localhost',
-        href: 'https://rancher.k3d.localhost/dashboard/c/local/explorer#cluster-metrics'
+        label: 'Rancher 2.6   ',
+        name: 'localhost',
+        href: 'https://rancher.localhost/dashboard/c/local/explorer',
+        label2: ' | ',
+        name2: 'doc',
+        href2: 'https://rancher.com/docs/rancher/v2.6/en/'
       },
       {
         name: 'Confluent Cloud',
@@ -285,7 +296,7 @@ const config = [
       {
         name: '',
         href: ''
-      },
+      }
     ]
   }
 ]
