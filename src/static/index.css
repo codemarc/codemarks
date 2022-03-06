@@ -15,7 +15,11 @@ header {
   margin-top: -16px;
   padding:0;
 }
+.sitelinks > a,
 header a:visited {
+  color: rgb(255, 255, 255);
+}
+header a[target="stock"] {
   color: rgb(255, 255, 255);
 }
 #root > div > div > div > div {
@@ -28,7 +32,7 @@ header a:visited {
 #root > div > header > div > div > span > div > button {
   padding: 1px;
 }
-#root > div > header > div > div > span > div > button > svg {
+#root > div > header > div > div > span > div  svg {
   color: rgb(255 255 255);
   font-size: 20px;
   border: 1px solid #999;

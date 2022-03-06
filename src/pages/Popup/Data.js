@@ -27,12 +27,9 @@ const config = [
         href: 'https://github.com/orgs/CodemarcConsulting/packages?ecosystem=container',
       },
       {
-        name: 'Notes to my future self',
-        href: 'https://github.com/codemarc/ntmfs'
-      },
-      {
-        name: "",
-        href: ""
+        label: "-",
+        name: "unicode-table",
+        href: "https://unicode-table.com/en/"
       }
     ]
   },
@@ -55,7 +52,7 @@ const config = [
       },
       {
         name: 'gsq.io',
-        href: 'ht1tps://goldensquirrel.io/'
+        href: 'https://goldensquirrel.io/'
       },
       {
         name: 'toojays',
