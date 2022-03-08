@@ -107,20 +107,15 @@ const config = [
     ]
   },
   {
-    section: 'Developer',
+    section: 'Learning',
     href: 'https://github.com/codemarc/ntmfs',
     links: [
       {
-        name: 'chrome webstore dev dash',
-        href: 'https://chrome.google.com/webstore/developer/dashboard'
-      },
-      {
-        name: 'LinkedIn Learning',
-        href: 'https://www.linkedin.com/learning/?trk=nav_neptune_learning'
-      },
-      {
-        name: 'stosa.org',
-        href: 'https://stosa.org/'
+        name: 'Udemy',
+        href: 'https://buildinglink.udemy.com/',
+        label2: ' | ',
+        name2: 'LinkedIn',
+        href2: 'https://www.linkedin.com/learning/?trk=nav_neptune_learning'
       },
       {
         name: 'React',
@@ -148,6 +143,14 @@ const config = [
         label4: ' • ',
         name4: 'flutter',
         href4: 'https://flutter.dev/'
+      },
+      {
+        name: '',
+        href: ''
+      },
+      {
+        name: 'stosa.org',
+        href: 'https://stosa.org/'
       }
     ]
   },
@@ -197,10 +200,10 @@ const config = [
       {
         name: 'about',
         href: 'https://www.microsoft.com/en-us/sitemap.aspx',
-        label2: '|',
+        label2: ' | ',
         name2: 'office',
         href2: 'https://www.office.com/?auth=1',
-        label3: '|',
+        label3: ' | ',
         name3: 'xbox',
         href3: 'https://www.microsoft.com/en-us/store/b/xbox'
       },
@@ -233,32 +236,40 @@ const config = [
       {
         name: 'about',
         href: 'https://about.google/products/#all-products',
-        label2: '|',
+        label2: ' | ',
         name2: 'play',
         href2: 'https://play.google.com/store?hl=en_US&gl=US',
-        label3: '|',
+        label3: ' | ',
         name3: 'youtube',
         href3: 'https://www.youtube.com/',
-      },
-      {
-        name: 'cloud doc',
-        href: 'https://cloud.google.com/docs'
-      },
-      {
-        name: 'cloud console',
-        href: 'https://console.cloud.google.com/',
       },
       {
         name: 'workspace admin console',
         href: 'https://admin.google.com/'
       },
       {
-        name: 'android developers',
-        href: 'https://developer.android.com/'
+        label: 'gcp cloud      ',
+        name: 'doc',
+        href: 'https://cloud.google.com/docs',
+        label2: ' | ',
+        name2: 'console',
+        href2: 'https://console.cloud.google.com/'
       },
       {
-        name: '',
-        href: ''
+        label: 'chrome web  ',
+        name: 'store',
+        href: 'https://chrome.google.com/webstore/',
+        label2: ' | ',
+        name2: 'console',
+        href2: ''
+      },
+      {
+        label: '-',
+        name: 'android',
+        href: 'https://www.android.com/',
+        label2: ' | ',
+        name2: 'developers',
+        href2: 'https://developer.android.com/'
       }
     ]
   },
@@ -277,10 +288,6 @@ const config = [
       {
         name: 'Confluent Cloud',
         href: 'https://login.confluent.io/login?state=hKFo2SBCa1o3dFQ3SnU3aHp6RmRIeXlUUHdaNXFYVnpLM08tS6FupWxvZ2luo3RpZNkgZndQYmU1NEllQjhtVk1PVGY4YmhPLWpqNVMzUnEzeWajY2lk2SBsMmhPcDBTMHRrU0IwVEZ0dklZZlpaOUVhS0Z2clNjNg&client=l2hOp0S0tkSB0TFtvIYfZZ9EaKFvrSc6&protocol=oauth2&redirect_uri=https%3A%2F%2Fconfluent.cloud%2Fauth_callback&scope=openid%20profile%20email&response_type=code&response_mode=query&nonce=NDFQYVZkQ2xaN1B3ZkUzOFdCZ1hQYkFxcDZZWGpCa3lnaUdfMHpBTWVjcw%3D%3D&code_challenge=jlnBwafOShf_UdJqizwgREcvO22egmieP0iXD5bznX8&code_challenge_method=S256&auth0Client=eyJuYW1lIjoiYXV0aDAtcmVhY3QiLCJ2ZXJzaW9uIjoiMS44LjAifQ%3D%3D'
-      },
-      {
-        name: '',
-        href: ''
       },
       {
         name: '',

@@ -12,7 +12,7 @@ const refreshClick = (event) => {
   chrome.runtime.reload()
 }
 const stockClick = (event) => {
-  window.open("https://invest.ameritrade.com/grid/p/site#r=home")
+  window.open("https://www.tdameritrade.com/")
 }
 const bankClick = (event) => {
   window.open("https://www.chase.com/")
