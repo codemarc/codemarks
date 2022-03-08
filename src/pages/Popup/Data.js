@@ -97,13 +97,10 @@ const config = [
         href: ''
       },
       {
-        name: '',
-        href: ''
-      },
-      {
-        name: '',
-        href: ''
-      },
+        label: '-',
+        name: 'Confluent Cloud',
+        href: 'https://login.confluent.io/login?state=hKFo2SBCa1o3dFQ3SnU3aHp6RmRIeXlUUHdaNXFYVnpLM08tS6FupWxvZ2luo3RpZNkgZndQYmU1NEllQjhtVk1PVGY4YmhPLWpqNVMzUnEzeWajY2lk2SBsMmhPcDBTMHRrU0IwVEZ0dklZZlpaOUVhS0Z2clNjNg&client=l2hOp0S0tkSB0TFtvIYfZZ9EaKFvrSc6&protocol=oauth2&redirect_uri=https%3A%2F%2Fconfluent.cloud%2Fauth_callback&scope=openid%20profile%20email&response_type=code&response_mode=query&nonce=NDFQYVZkQ2xaN1B3ZkUzOFdCZ1hQYkFxcDZZWGpCa3lnaUdfMHpBTWVjcw%3D%3D&code_challenge=jlnBwafOShf_UdJqizwgREcvO22egmieP0iXD5bznX8&code_challenge_method=S256&auth0Client=eyJuYW1lIjoiYXV0aDAtcmVhY3QiLCJ2ZXJzaW9uIjoiMS44LjAifQ%3D%3D'
+      }
     ]
   },
   {
@@ -118,7 +115,7 @@ const config = [
         href2: 'https://www.linkedin.com/learning/?trk=nav_neptune_learning'
       },
       {
-        name: 'React',
+        name: 'React  ',
         href: 'https://github.com/enaqx/awesome-react',
         label2: ' | ',
         name2: 'MUI',
@@ -131,7 +128,6 @@ const config = [
         href4: 'https://vacarsu.github.io/uikit-react/'
       },
       {
-        label: '-',
         name: 'code',
         href: 'https://codetogo.io/',
         label2: ' • ',
@@ -149,6 +145,7 @@ const config = [
         href: ''
       },
       {
+        label: '-',
         name: 'stosa.org',
         href: 'https://stosa.org/'
       }
@@ -212,8 +209,12 @@ const config = [
         href: 'https://developer.microsoft.com/en-us/'
       },
       {
-        name: 'azure console',
-        href: 'https://portal.azure.com/#allservices/category/All'
+        label: 'azure   ',
+        name: 'doc',
+        href: 'https://docs.microsoft.com/en-us/azure/cloud-services/',
+        label2: ' | ',
+        name2: 'console',
+        href2: 'https://portal.azure.com/#allservices/category/All'
       },
       {
         name: '',
@@ -286,8 +287,12 @@ const config = [
         href2: 'https://rancher.com/docs/rancher/v2.6/en/'
       },
       {
-        name: 'Confluent Cloud',
-        href: 'https://login.confluent.io/login?state=hKFo2SBCa1o3dFQ3SnU3aHp6RmRIeXlUUHdaNXFYVnpLM08tS6FupWxvZ2luo3RpZNkgZndQYmU1NEllQjhtVk1PVGY4YmhPLWpqNVMzUnEzeWajY2lk2SBsMmhPcDBTMHRrU0IwVEZ0dklZZlpaOUVhS0Z2clNjNg&client=l2hOp0S0tkSB0TFtvIYfZZ9EaKFvrSc6&protocol=oauth2&redirect_uri=https%3A%2F%2Fconfluent.cloud%2Fauth_callback&scope=openid%20profile%20email&response_type=code&response_mode=query&nonce=NDFQYVZkQ2xaN1B3ZkUzOFdCZ1hQYkFxcDZZWGpCa3lnaUdfMHpBTWVjcw%3D%3D&code_challenge=jlnBwafOShf_UdJqizwgREcvO22egmieP0iXD5bznX8&code_challenge_method=S256&auth0Client=eyJuYW1lIjoiYXV0aDAtcmVhY3QiLCJ2ZXJzaW9uIjoiMS44LjAifQ%3D%3D'
+        name: '',
+        href: ''
+      },
+      {
+        name: '',
+        href: ''
       },
       {
         name: '',
