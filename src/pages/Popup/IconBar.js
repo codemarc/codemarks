@@ -18,6 +18,11 @@ const bankClick = (event) => {
   window.open("https://www.chase.com/")
 }
 
+const settingsClick = (event) => {
+  window.open("http://codemarc.net/matrix/")
+}
+
+
 export default function IconBar() {
   return (
     <span>
@@ -31,7 +36,7 @@ export default function IconBar() {
         <IconButton aria-label="bank" onClick={bankClick}>
           <AccountBalanceIcon />
         </IconButton>
-        <IconButton aria-label="settings">
+        <IconButton aria-label="settings" onClick={settingsClick}>
           <DisplaySettingsIcon />
         </IconButton>
       </Stack>

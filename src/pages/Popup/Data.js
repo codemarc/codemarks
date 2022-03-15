@@ -13,6 +13,9 @@ const config = [
         label3: ' | ',
         name3: 'gists',
         href3: 'https://gist.github.com',
+        label4: ' | ',
+        name4: 'insider',
+        href4: 'https://resources.github.com/github-insider/practitioner/'
       },
       {
         name: 'as Codemarc',
@@ -271,7 +274,7 @@ const config = [
         label2: ' | ',
         name2: 'developers',
         href2: 'https://developer.android.com/'
-      }
+      }1
     ]
   },
   {
@@ -279,24 +282,36 @@ const config = [
     href: 'https://landscape.cncf.io/',
     links: [
       {
+        label: 'terraform ',
+        name: 'src',
+        href: 'https://github.com/hashicorp/terraform',
+        label2: ' | ',
+        name2: 'docs',
+        href2: 'https://www.terraform.io/docs',
+        label3: ' | ',
+        name3: 'learn',
+        href3: 'https://learn.hashicorp.com/terraform#operations-and-development'
+      },
+      {
+        label: 'tf registry ',
+        name: 'providers',
+        href: 'https://registry.terraform.io/browse/providers',
+        label2: ' | ',
+        name2: 'modules',
+        href2: 'https://registry.terraform.io/browse/modules'
+      },
+      {
+        label: '-',
+        name: ' ',
+        href: ' '
+      },
+      {
         label: 'Rancher 2.6   ',
         name: 'localhost',
         href: 'https://rancher.localhost/dashboard/c/local/explorer',
         label2: ' | ',
         name2: 'doc',
         href2: 'https://rancher.com/docs/rancher/v2.6/en/'
-      },
-      {
-        name: '',
-        href: ''
-      },
-      {
-        name: '',
-        href: ''
-      },
-      {
-        name: '',
-        href: ''
       },
       {
         name: '',
